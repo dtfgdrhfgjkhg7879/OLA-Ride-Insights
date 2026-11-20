@@ -1,0 +1,183 @@
+:::writing{variant="document" id="62841"}
+# OLA RIDE INSIGHTS
+## End-to-End Data Analytics and Business Intelligence Project
+
+**Project Domain:** Data Analytics and Business Intelligence
+
+**Technologies:** Python, Pandas, NumPy, MySQL, Power BI, Streamlit and Plotly
+
+---
+
+# 1. Abstract
+
+OLA Ride Insights is an end-to-end data analytics project focused on analyzing ride-booking data to identify business trends and operational insights.
+
+The project uses Python for data cleaning and exploratory data analysis, MySQL for structured data storage and SQL-based analysis, Power BI for interactive business intelligence dashboards, and Streamlit for developing a web-based analytics application.
+
+The analysis focuses on booking performance, vehicle utilization, revenue generation, payment methods, cancellation patterns, incomplete rides, and customer and driver ratings.
+
+The dataset contains 103,024 ride-booking records covering July 2024.
+
+# 2. Introduction
+
+The growth of app-based transportation services has generated large volumes of operational data. Analyzing this information can help organizations understand customer behavior, operational efficiency, revenue trends, and service quality.
+
+OLA Ride Insights applies data analytics and visualization techniques to ride-booking records to transform raw data into meaningful business information.
+
+# 3. Problem Statement
+
+Ride-booking platforms generate extensive operational data, making it difficult to identify important trends manually.
+
+The project addresses the need for a structured analytical solution to:
+- Monitor booking performance.
+- Understand cancellation behavior.
+- Evaluate vehicle performance.
+- Analyze revenue and payment methods.
+- Measure customer and driver satisfaction.
+
+# 4. Project Objectives
+
+1. Perform data cleaning and preprocessing.
+2. Conduct exploratory data analysis.
+3. Store and analyze booking records using MySQL.
+4. Develop SQL queries for business questions.
+5. Build interactive Power BI dashboards.
+6. Develop a Streamlit analytics application.
+7. Present actionable insights through visualizations.
+
+# 5. System Requirements
+
+## Hardware Requirements
+- Computer or laptop
+- Minimum 8 GB RAM recommended
+- Sufficient storage for the dataset and project files
+
+## Software Requirements
+- Python
+- Visual Studio Code
+- MySQL Server
+- Power BI Desktop
+- Streamlit
+- Microsoft Excel
+
+# 6. Dataset Description
+
+The project uses an OLA ride-booking dataset with:
+
+- Total records: 103,024
+- Original attributes: 20
+- Processed attributes: 21
+- Data period: July 2024
+
+Important attributes include Booking ID, Booking Status, Customer ID, Vehicle Type, Pickup Location, Drop Location, Booking Value, Payment Method, Ride Distance, Driver Ratings and Customer Rating.
+
+# 7. Methodology
+
+The project follows an end-to-end analytics workflow:
+
+1. Data understanding
+2. Data validation
+3. Data cleaning
+4. Exploratory data analysis
+5. MySQL database integration
+6. SQL business analysis
+7. Power BI dashboard development
+8. Streamlit application development
+
+# 8. Data Cleaning and Exploratory Data Analysis
+
+Python and Pandas were used to inspect and preprocess the dataset.
+
+The cleaning process included:
+- Column name standardization.
+- Date and time conversion.
+- Numeric data validation.
+- Duplicate checking.
+- Missing-value investigation.
+- Creation of a combined ride datetime field.
+
+Missing values were investigated according to booking status and business meaning rather than indiscriminately removed.
+
+Exploratory data analysis was conducted using Pandas, Matplotlib and Seaborn.
+
+# 9. SQL Analysis
+
+MySQL was used to store the cleaned dataset in the `ola_analytics` database.
+
+The `bookings` table contains 103,024 records.
+
+Ten business questions were analyzed, covering successful bookings, vehicle-wise ride distance, customer cancellations, top customers, driver cancellation reasons, Prime Sedan ratings, UPI bookings, customer ratings, successful ride revenue and incomplete rides.
+
+# 10. Power BI Dashboard
+
+The Power BI solution is organized into five analytical pages:
+
+1. Overall Dashboard
+2. Vehicle Type Analysis
+3. Revenue Analysis
+4. Cancellation Analysis
+5. Ratings Analysis
+
+The dashboards use KPI cards, bar charts, line charts, donut charts and date filters to present booking and operational performance.
+
+# 11. Streamlit Application
+
+A web-based analytics application was developed using Streamlit and Plotly.
+
+The application connects to MySQL and provides:
+- Interactive KPI metrics.
+- Booking status analysis.
+- Daily ride volume.
+- Vehicle performance.
+- Revenue analysis.
+- Cancellation analysis.
+- Customer and driver rating analysis.
+- Interactive filters.
+
+# 12. Results and Discussion
+
+The analysis produced the following results:
+
+| Metric | Result |
+|---|---:|
+| Total Bookings | 103,024 |
+| Successful Bookings | 63,967 |
+| Customer Cancellations | 10,499 |
+| Driver Cancellations | 18,434 |
+| Driver Not Found | 10,124 |
+| Incomplete Rides | 3,926 |
+| Successful Booking Revenue | ₹35,080,467 |
+| Average Successful Ride Distance | 22.85 km |
+| Average Customer Rating | 4.0 |
+| Average Driver Rating | 4.0 |
+
+These results provide an overview of booking performance, revenue generation, cancellation patterns and service quality.
+
+# 13. Conclusion
+
+OLA Ride Insights demonstrates the application of data analytics and business intelligence techniques to transportation booking data.
+
+The project integrates Python, MySQL, Power BI and Streamlit into a unified analytical workflow.
+
+It provides an interactive approach to understanding ride-booking performance and identifying operational trends.
+
+# 14. Future Scope
+
+Potential future improvements include:
+- Ride demand forecasting.
+- Revenue prediction.
+- Customer segmentation.
+- Cancellation prediction.
+- Real-time analytics.
+- Cloud-based deployment.
+- Automated dashboard refresh.
+
+# 15. References
+
+- Python Documentation: https://docs.python.org/3/
+- Pandas Documentation: https://pandas.pydata.org/docs/
+- MySQL Documentation: https://dev.mysql.com/doc/
+- Microsoft Power BI: https://learn.microsoft.com/power-bi/
+- Streamlit Documentation: https://docs.streamlit.io/
+- Plotly Documentation: https://plotly.com/python/
+:::

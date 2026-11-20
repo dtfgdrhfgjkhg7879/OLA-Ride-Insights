@@ -1,0 +1,17 @@
+
+.venv/
+__pycache__/
+*.pyc
+.env
+.streamlit/secrets.toml
+
+# Local database files
+*.sqlitedb
+
+# Sensitive and potentially large datasets
+data/raw/
+data/processed/*.csv
+
+# Temporary files
+*.log
+.DS_Store
