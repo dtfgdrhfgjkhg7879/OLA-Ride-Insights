@@ -15,3 +15,4 @@ data/processed/*.csv
 # Temporary files
 *.log
 .DS_Store
+OLA_DataSet.xlsx
